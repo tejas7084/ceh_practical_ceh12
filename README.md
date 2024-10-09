@@ -1,16 +1,16 @@
 # ceh_practical_ceh12
 all about ceh v12 practical exam, what types of questions, and stuff
-##### to find hashes,crc value and other stuff use this:
+## to find hashes,crc value and other stuff use this:
 https://emn178.github.io/online-tools/crc32_checksum.html (online tools github)
 https://gchq.github.io/CyberChef/  -----cyber chef
 
-
 1. find the fqdn of domain controller ?
-	nmap -p 389 --script ldap-rootdse localhost
+	```bash
+        nmap -p 389 --script ldap-rootdse localhost
 	or 
 	nmap -sV -p 389 localhost
 	or smb os discovery nmap script port 445 
-	
+	```
 
 PORT NUMBERS:
 21 - FTP
